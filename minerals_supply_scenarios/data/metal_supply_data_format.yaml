@@ -1,0 +1,65 @@
+# List of attributes used in spcenarios and
+# correspondence to other data sources
+
+Commodity:
+  S&P: PRIMARY_COMMODITY
+  Custom data: Commodity 
+
+Project Name:
+  S&P: PROP_NAME
+  Custom data: Project Name
+
+Project ID:
+  S&P: PROP_ID
+  Custom data: Project ID
+
+Country:
+  S&P: COUNTRY_NAME
+  Custom data: Country
+
+Product:
+  S&P: PRODUCTION_FORMS
+  Custom data: Product
+
+Commodities List:
+  S&P: COMMODITIES_LIST
+  Custom data: Commodities List
+
+Development Stage:
+  S&P: DEV_STAGE
+  Custom data: Development Stage
+
+Activity Status:
+  S&P: ACTV_STATUS
+  Custom data: Activity Status
+
+Mine Type:
+  S&P: MINE_TYPE1
+  Custom data: Mine Type
+
+Deposit Type:
+  S&P: GEOLOGIC_ORE_BODY_TYPE
+  Custom data: Deposit Type
+
+Ore Minerals:
+  S&P: ORE_MINERALS
+  Custom data: Ore Minerals
+
+Project Start Year:
+  S&P: PROJ_START_UP_YR
+  Custom data: Project Start Year
+
+Project Closure Year:
+  S&P: PROJ_CLOSURE_YR
+  Custom data: Project Closure Year
+
+Production Capacity:
+    S&P: PRODUCTION_CAPACITY_TONNE
+    Custom data: Production Capacity
+
+Production:
+  S&P: "COMMODITY_PRODUCTION_TONNE_BY_PERIOD" # followed by the year and "Y" (e.g., "_2023Y")
+  Custom data: Production  # followed by the year (e.g., "_2023")
+
+Production Unit:
+  Custom data: Unit

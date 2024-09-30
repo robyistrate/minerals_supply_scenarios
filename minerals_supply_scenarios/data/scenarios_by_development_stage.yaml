@@ -1,0 +1,35 @@
+# Definition of supply scenarios based on project development stages
+
+S&P-Baseline:
+  - Operating
+  - Limited Production
+  - Preproduction
+  - Expansion
+  - Satellite
+
+S&P-Ambitious:
+  - Operating
+  - Limited Production
+  - Preproduction
+  - Expansion
+  - Satellite 
+  - Construction Started
+  - Construction Planned
+  - Feasibility Complete
+  - Commissioning
+
+S&P-Very Ambitious:
+  - Operating
+  - Limited Production
+  - Preproduction
+  - Expansion
+  - Satellite 
+  - Construction Started
+  - Construction Planned
+  - Feasibility Complete
+  - Commissioning
+  - Feasibility Started
+  - Advanced Exploration
+  - Prefeas/Scoping
+  - Feasibility
+  - Reserves Development

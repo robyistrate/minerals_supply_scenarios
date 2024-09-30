@@ -1,0 +1,10 @@
+# Output product can vary between projects.
+# This is the data to harmonize output product across projects
+# A pre-defined product is assumed (e.g., lithium carbonate for brine litihum projects)
+
+Lithium:
+  Brine (Salar):
+    Product: "Carbonate"
+    Conversions:
+      Concentrate: 0.80
+      Hydroxide: 1.05

@@ -1,0 +1,136 @@
+# Fill information gaps in the S&P dataset for specific projects ID
+
+###################################################
+Lithium:
+###################################################
+
+  36153:  # Uyuni Salt Flat
+    - Product: Carbonate    # FIND REFERENCE!
+  
+  38543: # East Taijinair	
+    - Product: Carbonate      # https://www.woodmac.com/reports/metals-east-taijinaier-lithium-brine-150022524/
+
+#  38558:  # Salton Sea
+#    - Project Start Year:
+#    - Project Closure Year:
+#    - Production
+
+  52372: # Cuenca Centenario-Ratones
+    - Product: Carbonate      # https://www.mineria-pa.com/noticias/argentina-fase-1-del-proyecto-centenario-ratones-se-inaugurara-en-julio/
+
+  63000: # Salar de Maricunga:
+    - Product: Carbonate          # https://lithiumpowerinternational.com/maricunga-project/
+    - Project Start Year: 2025    # https://lithiumpowerinternational.com/maricunga-project/
+    - Project Closure Year: 2045  # Assuming 20 years lifetime: # https://lithiumpowerinternational.com/maricunga-project/
+
+  63172: # Sabi Star, Zimbabwe	
+    - Deposit Type: Pegmatite Hosted      # https://miningzimbabwe.com/us45million-sabi-star-lithium-floatation-plant-commissioned/
+    - Ore Minerals: Spodumene             # https://miningzimbabwe.com/us45million-sabi-star-lithium-floatation-plant-commissioned/
+    - Product: Concentrate                # https://miningzimbabwe.com/us45million-sabi-star-lithium-floatation-plant-commissioned/
+
+  66354: # Salar de Antofalla
+    - Product: Carbonate        # It is expected to eventually produce up to 20,000 metric tons of lithium carbonate equivalent https://trianglelithium.com/portfolio-items/antofalla-salar/	
+
+  78568: # Salta Lithium
+    - Product: Carbonate        # https://www.powerminerals.com.au/site/projects/lithium-brine-project
+    - Production 2025: 7      # "14-year operation with annual production of 7,061 tonnes of high purity lithium carbonate based on existing JORC Mineral Resources" https://www.powerminerals.com.au/site/projects/lithium-brine-project
+    - Production 2030: 7
+    - Project Closure Year: 2050    # FIND REFERENCE
+
+  79236: # Hombre Muerto North
+    - Production 2030: 15.6          # "The production rate of 15,600 tonnes of lithium carbonate technical grade per year" https://www.lithiumsouth.com/projects/ 
+
+  79424: # Paradox
+    - Production 2025: 13         # "the Project will produce 13,074 tonnes per annum of high purity Lithium Carbonate over an initial 10-year project life" https://www.ansonresources.com/paradox_lithium_project/ 
+
+  83904: # Vulcan:
+    - Production 2026: 21.12      # Target 24 kt/year of lithium hydroxide monohydrate; converted to LCE multiplying by 0.88 https://v-er.eu/pilot-plants/  
+
+  85098: # Jintaier Lake, China
+    - Product: Carbonate      # https://www.asianmetal.com/news/data/1421159/
+
+  85124: # Qarhan Lake
+    - Product: Carbonate    # https://www.globaltimes.cn/page/202108/1231681.shtml?id=11
+    
+  88897: # Qinghai Yiliping
+    - Product: Carbonate      # https://www.woodmac.com/reports/metals-yiliping-lithium-brine-555014/
+
+  88960: # Lakkor Tso Salt Lake
+    - Production 2025: 50     # "is likely to produce over 50,000 tonnes of lithium carbonate per annum by 2025." https://www.marketscreener.com/quote/stock/ZIJIN-MINING-GROUP-COMPAN-6171013/news/Zijin-Mining-to-Acquire-the-Lakkor-Tso-Lithium-Brine-Project-in-Tibet-40414013/
+
+  90112: # Prairie Lithium	
+    - Production 2025: 6      # "The first phase of the project will lead to production of 6,000tpa of LCE... AZL plans to bring initial production online in H1 2025" https://www.arizonalithium.com/wp-content/uploads/2024/01/02758730.pdf 
+    - Production 2030: 20     # "additional modules to build production up to 20,000 25,000tpa in Phase Two and multiples of that in Phase Three."  https://www.arizonalithium.com/wp-content/uploads/2024/01/02758730.pdf  
+    - Project Closure Year: 2045  # 20 years of production
+
+  90522: # Sal de Oro
+    - Deposit Type: Brine (Salar)
+    - Product: Carbonate            # https://thelogisticsworld.com/actualidad-logistica/posco-invierte-en-proyecto-de-litio-sal-de-oro-en-argentina/    
+  
+  91495: # Kuska
+    - Production 2030: 20      # "The Kuska project can deliver a 20,000 tpa Lithium carbonate"; start year is 2027; https://www.nsenergybusiness.com/projects/kuska-salar-project-chile/ 
+
+
+
+###################################################
+Graphite:
+###################################################
+
+  53735: # Lac Knife, Canada:
+    - Project Start Year: 2028  # Not sure
+    - Project Closure Year: 2055   # 27 years lifetime according to feasibility study (https://focusgraphite.com/wp-content/uploads/2021/07/J5116-Focus-Lac-Knife-Tech-Rep-FSU-1.pdf)
+    - Production 2028: 46.7   # production in first year will be 90% of capacity (https://focusgraphite.com/wp-content/uploads/2021/07/J5116-Focus-Lac-Knife-Tech-Rep-FSU-1.pdf) 
+    - Production 2029: 50  # production schedule according to feasibility study (https://focusgraphite.com/wp-content/uploads/2021/07/J5116-Focus-Lac-Knife-Tech-Rep-FSU-1.pdf)        
+    - Production 2040: 250
+
+  54146: # Bissett Greek, Canada
+    - Production 2026: 44   # Phase I output of 44,000 tpy when it comes into production, which is forecast for 2026, subject to financing (https://www.northerngraphite.com/bissett-creek/)
+
+  61626: # Balama, Mozambique
+    - Product: Concentrate
+  
+  64090: # Lac des Iles, Canada
+    - Product: Concentrate
+    - Project Start Year: 1989  # The Quarry was brought into production by Stratmin Graphite Inc. (Stratmin) in 1989 (https://www.northerngraphite.com/technical-reports/)
+
+  65199: # La Loutre, Canada
+    - Product: Concentrate
+    - Production 2026: 108 # Average annual graphite concentrate production of 108 kt for the first eight years; LOM average annual production of 97.4 kt (https://lomiko.com/projects/la-loutre/)
+    - Production 2034: 97.4 # Average annual graphite concentrate production of 108 kt for the first eight years; LOM average annual production of 97.4 kt (https://lomiko.com/projects/la-loutre/)
+
+  65823: # Ancuabe, Mozambique
+    - Production 2023: 17 # https://tritonminerals.com/wp-content/uploads/2022/02/TON-Investor-Pres-Feb-16-Feb-2022.pdf
+
+  65908: # Koppio-Kookaburra Gully, Australia
+    - Deposit Type: Graphite (Disseminated Flake)
+
+  66216: # Molo, Madagascar
+    - Product: Concentrate
+
+  66827: # Nachu, Tanzania
+    - Project Closure Year: 2040 # Mine life of 15.5 years based on reserves (https://media.abnnewswire.net/media/en/presentations/rpt/ASX-MNS-2A1411112.pdf)
+    - Production 2025: 220 # Concentrate production rate over first 12 years of initial mine plan (https://magnis.com.au/nachu-project/)
+
+  70725: # Lindi Jumbo, Tanzania
+    - Product: Concentrate
+    - Production Capacity: 40
+    - Production 2024: 40 # Capacity ramp-up over 4 months to 40ktpa nameplate (https://wkt.com.au/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=10&wpfd_file_id=3466&preview=1)
+
+  77113: # Salto da Divisa, Brazil
+    - Deposit Type: Graphite (Disseminated Flake)
+
+  77115: # Pedra Azul, Brazil
+    - Deposit Type: Graphite (Disseminated Flake)
+    - Project Start Year: 2012
+
+  85874: # Sahamamy, Madagascar
+    - Product: Concentrate
+    - Project Start Year: 2019
+    - Production 2020: 3 # Excel file
+    - Production 2030: 18 # Excel file        
+
+  86091: # Zavalievsky
+    - Deposit Type: Graphite (Disseminated Flake)
+
+  89685: # Beishan, China
+    - Deposit Type: Graphite (Disseminated Flake)
