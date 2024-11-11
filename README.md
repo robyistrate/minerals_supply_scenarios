@@ -28,5 +28,8 @@ Installation
 ----------------------------
 
 
-Getting started
+How to use
 ----------------------------
+To use the tool, the raw dataset needs to be downloaded from the S&P database. When exporting the dataset, the following attributes must be included: *Primary comodity, Production forms, Country / Region Name, Development stage, Activity Status, List of Commodities, Mine type 1, Geologic Ore Body Type, Ore Minerals, Projected Start Up Year, Projected Closure Year, Production capacity - tonne, Commodity Production - tonne [for selected years]*
+
+Copy the downloaded dataset into the [examples folder](https://github.com/robyistrate/minerals_supply_scenarios/tree/main/examples) and run the [example Jupyter notebook](https://github.com/robyistrate/minerals_supply_scenarios/blob/main/examples/example.ipynb)
